@@ -1,0 +1,156 @@
+.root {
+  
+}
+
+body {
+  background-color: lightgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 1000px;
+  border-radius: 8px;
+  
+}
+
+form {
+  padding: 15px;
+
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 15px;
+}
+
+.inputs > input {
+  height: 30px;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+h1{
+  text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  
+
+  
+}
+
+.buttons > button {
+  width: 400px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+
+.buttons > button:first-child {
+  background-color:forestgreen
+
+}
+
+.buttons > button:nth-child(2) {
+  background-color:darkred
+
+}
+
+.cards {
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+
+
+}
+
+.card {
+  padding: 10px;
+  border: 2px solid blue;
+  width: 200px;
+  border-radius: 9px;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.card-buttons > .first-buttons > button, .card-buttons > .second-buttons > button {
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 8px;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.first-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.second-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.card-buttons > .first-buttons > button:first-child {
+  background-color: green;
+  font-size: 30px;
+}
+
+.card-buttons > .first-buttons > button:nth-child(2) {
+  background-color: crimson;
+  font-size: 30px;
+  
+  
+}
+
+.card-buttons > .second-buttons > button:nth-child(1) {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.card-buttons > .second-buttons button:nth-child(2) {
+  background-color: rgb(204, 74, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
